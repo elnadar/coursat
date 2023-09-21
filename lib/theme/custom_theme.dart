@@ -5,8 +5,8 @@ abstract final class CustomTheme {
   static ThemeData darkTheme(BuildContext context) {
     final theme = Theme.of(context);
     return ThemeData(
-      brightness: Brightness.dark,
       colorScheme: ColorScheme.fromSwatch(
+        brightness: Brightness.dark,
         primarySwatch: MaterialColor(
           Palette.red500.value,
           const {
